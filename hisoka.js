@@ -838,6 +838,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
                 break
             case 'tagall': {
                 if (!m.isGroup) throw mess.group
+if (!isCreator) throw mess.owner
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
 let teks = `══✪〘 *👥 Tag All* 〙✪══
@@ -851,6 +852,7 @@ let teks = `══✪〘 *👥 Tag All* 〙✪══
                 break
                 case 'hidetag': {
             if (!m.isGroup) throw mess.group
+if (!isCreator) throw mess.owner
             if (!isBotAdmins) throw mess.botAdmin
             if (!isAdmins) throw mess.admin
             hisoka.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
