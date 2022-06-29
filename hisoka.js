@@ -1148,13 +1148,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Grub Ofc ArullBotzMD',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    displayText: 'Grub Sabo Botz',
+                                    url: 'https://chat.whatsapp.com/FMnwYO5VGl4JHJIobcgEHR'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Arull',
-                                    phoneNumber: '+6285822347348'
+                                    displayText: 'Number Inz',
+                                    phoneNumber: '+6289667644225'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1187,13 +1187,13 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Grub Ofc ArullBotzMD',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    displayText: 'Grub Sabo Botz',
+                                    url: 'https://chat.whatsapp.com/FMnwYO5VGl4JHJIobcgEHR'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Arull',
-                                    phoneNumber: '+6285822347348'
+                                    displayText: 'Number Inz',
+                                    phoneNumber: '+6289667644225'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1211,7 +1211,7 @@ break
                                     id: 'sc'
                                 }
                             }]
-                      let txt = `「 *Broadcast ArullBotzMD* 」\n\n${text}`
+                      let txt = `「 *Broadcast Sabo Botz* 」\n\n${text}`
                       hisoka.send5ButImg(yoi, txt, hisoka.user.name, global.thumb, btn)
 		}
 		m.reply('*Sukses Broadcast*')
