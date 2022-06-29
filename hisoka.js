@@ -757,6 +757,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             break
 	case 'kick': {
 		if (!m.isGroup) throw mess.group
+if (isCreator) return m.reply(`*maaf kamu owner bot ku*`)
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
 		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
@@ -1071,6 +1072,7 @@ break
             break
             case 'antilink': {
                 if (!m.isGroup) throw mess.group
+if (!isCreator) throw mess.owner
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === "on") {
